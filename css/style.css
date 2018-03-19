@@ -1,0 +1,390 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-image: url(../img/Escape_background.png);
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.wrapper {
+    margin: 0px auto;
+    width: 80%;
+}
+.header_upper {
+    height: 130px;
+    width: 100%;
+}
+.logo {
+    width: 200px;
+    height: 67px;
+    padding-top: 30px;
+    float: left;
+}
+.menu {
+    min-height: 59px;
+    font-family: sans-serif;
+    width: 545px;
+    margin: 22px auto;
+    float: right;
+}
+.menu ul {
+    list-style: none
+}
+.menu ul li {
+    float: left;
+}
+.menu ul li:last-child {
+    border-right: none
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 18px 22px;
+    display: block;
+    transition: 1s;
+}
+.header_lower {
+    height: 300px;
+    width: 100%;
+}
+.detail {
+    text-align: center;
+    height: 330px;
+    width: 100%;
+    color: white;
+    margin-top: 80px;
+    font-family: sans-serif;
+}
+.detail h3 {
+    font-size: 29px;
+    padding-top: 40px;
+    font-weight: 100;
+}
+.detail h1 {
+    font-size: 65px;
+    padding-top: 45px;
+}
+.detail button {
+    width: 170px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 52px;
+    background: none;
+    color: white;
+    border: none;
+    border: 2px solid white;
+}
+
+/*banner start*/
+
+.banner {
+    overflow: hidden;
+    height: 700px;
+}
+.banner_part {
+    height: 700px;
+    width: 100%;
+    margin-top: 50px;
+}
+.banner_part_1 {
+    height: 275px;
+    width: 100%;
+    overflow: hidden;
+}
+.details {
+    height: 250px;
+    width: 50%;
+    float: left;
+    font-family: sans-serif;
+    padding: 18px 45px;
+}
+.details h1 {
+    font-size: 45px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.details p {
+    padding-top: 20px;
+}
+.photo {
+    height: 250px;
+    width: 33%;
+    float: right;
+}
+.photo img {
+    padding-top: 35px;
+}
+
+/*start banner part*/
+
+span {
+    font-weight: bold;
+}
+.banner_part_2 {
+    height: 275px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 55px;
+}
+.details1 {
+    height: 250px;
+    width: 50%;
+    float: right;
+    font-family: sans-serif;
+    padding: 18px 45px;
+}
+.details1 h1 {
+    font-size: 45px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.details1 p {
+    padding-top: 20px;
+}
+.photo1 {
+    height: 250px;
+    width: 33%;
+    float: left;
+}
+.photo1 img {
+    padding-top: 35px;
+    padding-left: 50px;
+}
+
+/*start mainpart part*/
+
+.mainpart {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.description {
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.description_left {
+    width: 45%;
+    height: 400px;
+    margin-top: 10px;
+    float: left;
+}
+.description_right {
+    width: 45%;
+    height: 400px;
+    margin-top: 10px;
+    float: right;
+}
+.mainpart_detls {
+    height: 450px;
+    width: 100%;
+    margin: 0px auto;
+}
+.branding {
+    float: left;
+    margin: 5px 0px 0px 8px;
+    width: 95%;
+    height: 115px;
+}
+.branding_image {
+    width: 17%;
+    height: 70px;
+    float: left;
+    background-color: black;
+    border-radius: 40px;
+    margin: 5px 10px;
+}
+.branding_image img {
+    padding: 12px 24px;
+}
+.image_details {
+    float: right;
+    width: 76%;
+    height: 95px;
+}
+.image_details h1 {
+    margin: 0px auto;
+}
+.image_details p {
+    margin: 0px auto;
+}
+.web_graphic {
+    height: 120px;
+    width: 40%;
+    border: 1px solid red;
+    float: right;
+}
+
+/*client start*/
+
+.client {
+    height: 710px;
+    
+}
+.client_header {
+    height: 90px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.client_header h1 {
+    font-weight: 100;
+    font-size: 45px;
+}
+.client_header p {}
+.client_midle1 {
+    height: 270px;
+    ;
+}
+.details10 {
+    height: 170px;
+    width: 50%;
+    float: right;
+    font-family: sans-serif;
+    padding: 18px 45px;
+}
+.details10 p {
+    padding-top: 20px;
+}
+.photo10 {
+    
+}
+.photo10 img{
+       border: 2px solid;
+    border-radius: 90px;
+    width: 180px;
+    height: 169px;
+    margin-left: 45px;
+}
+/*client end*/
+
+.client_midle2 {
+    height: 230px;
+}
+.details102 {
+    height: 250px;
+    width: 50%;
+    float: left;
+    font-family: sans-serif;
+    padding: 18px 45px;
+}
+.details102 p {
+    padding-top: 20px;
+}
+.photo102 {
+    
+}
+.photo102 img{
+       border: 2px solid;
+    border-radius: 90px;
+    width: 180px;
+    height: 169px;
+    margin-left: 65px;
+}
+.client_footer {
+    height: 50px;
+    float: left;
+    width: 100%;
+    
+}
+.client_footer img {
+    padding-left: 30px;
+}
+
+.team{
+ background-color: black;
+    overflow: hidden;
+}
+.color{
+   
+    width: 100%;
+    
+    overflow: hidden;
+    color: white;
+}
+.amazing_team{
+   height: 76px;
+    width: 100%;
+    margin-top: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+.amazing_team h1{font-size: 45px;
+    font-weight: 100;}
+.amazing_team p{}
+.team_members{height: 300px;
+    width: 100%;
+    
+    margin-top: 5px;float: left;}
+.part1{width: 30%;
+    height: 280px;
+    
+    float: left;
+    margin-left: 70px;
+    font-family: sans-serif;
+margin-top: 20px;}
+.part1 img{    height: 200px;
+    width: 208px;
+      border: 4px solid white;
+    border-radius: 102px;}
+.part1 h1{   font-size: 23px;
+    margin-top: 10px;}
+.part1 p{padding-left: 80px;}
+.part2{width: 30%;
+height: 280px;
+float: left;font-family: sans-serif;margin-top: 20px;}
+.part2 img{   height: 200px;
+    width: 208px;
+       border: 4px solid white;
+    border-radius: 102px;
+    margin-left: 15px;}
+.part2 h1{     font-size: 23px;
+    margin-top: 10px;
+    padding-left: 30px;}
+.part2 p{ padding-left: 108px;}
+.part3{width: 30%;
+height: 280px;
+;float: left;font-family: sans-serif;margin-top: 20px;}
+.part3 img{    height: 200px;
+    width: 208px;
+      border: 4px solid white;
+    border-radius: 102px;
+    margin-left: 25px;}
+.part3 h1{     font-size: 23px;
+    margin-top: 10px;
+    padding-left: 68px;}
+.part3 p{ padding-left: 77px;}
+.team_footer{height: 100px;
+    width: 100%;
+    
+    margin-top: 5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
